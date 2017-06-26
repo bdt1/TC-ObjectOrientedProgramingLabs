@@ -54,9 +54,7 @@ Make sure you test EVERY public method
 1. In your unit test initialize a human and superhuman instances
 2. Demonstrate calling methods inherited from Human on your SuperHuman instances
 
-#Part 3 Class Manager
-
-## Product Inventory Project 
+#Part 3 Product Inventory Project 
 
 ## Objectives
 
@@ -81,8 +79,7 @@ Unit test in  place before proceeding with code
 2. Demonstrate calling methods on your manager
 3. Print all output to screen
 
-#Part 4
-# Class Manager
+#Part 4 Class Manager
 
 ## Product Inventory Project 
 
