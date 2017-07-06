@@ -1,5 +1,6 @@
 package RotateList;
 
+import java.util.*;
 
 /**
  * Finish the class RotateList make it subclasse the built-in List class. (Hint extends ?????)
@@ -10,5 +11,22 @@ package RotateList;
  * Try solving this without creating a copy of the list.
  * How many swap or move operations do you need?
  */
-public class RotateList{
+
+
+public class RotateList {
+	public static String rotate(List<String> x, int k) {
+		   List<String> listA = Arrays.asList("1 2 3 4 5 6".split(" "));
+	       //listA.toString();
+		   //System.out.println(sourceBefore);
+	       //int k = 0;
+	       Collections.rotate(listA, -k);
+	       //System.out.println(listA);
+	       String response = listA.toString();
+	       return response;
+	   }
 }
+
+
+
+	   
+

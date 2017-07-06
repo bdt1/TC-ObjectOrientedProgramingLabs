@@ -64,7 +64,7 @@ Make sure you test EVERY public method
 1. To demonstrate your understanding of objects and functions
 2. To demonstrate your understanding of controlling execution
 3. To demonstrate your understanding of access control
-4. To demonstrate your understanding of reusing classes
+4. To demonstrate your understanding of reusing classes`4 6879
 
 
 ## Overview
