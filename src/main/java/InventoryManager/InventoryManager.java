@@ -56,8 +56,8 @@ public class InventoryManager {
 		String result = "";
 		for (Product product : products) {
 			result += product.toString();
-			Console.println(result);
 		}
+		Console.println(result);
 		return result;
 	}
 		
