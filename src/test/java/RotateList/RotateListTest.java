@@ -45,9 +45,9 @@ public class RotateListTest {
 			String afterExpected = "[3, 4, 5, 6, 1, 2]";
 			//System.out.println(afterExpected);	
 			// :When
-			int k = 2;
+			int k = -2;
 			String actualA = RotateList.rotate(listA, k);
-			//System.out.println(actualA);
+			System.out.println(actualA);
 			String actualS = actualA.toString();
 			//:Then
 			Assert.assertEquals(afterExpected, actualS);

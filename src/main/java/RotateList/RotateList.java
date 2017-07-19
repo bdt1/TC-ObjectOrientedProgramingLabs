@@ -19,7 +19,7 @@ public class RotateList {
 	       //listA.toString();
 		   //System.out.println(sourceBefore);
 	       //int k = 0;
-	       Collections.rotate(listA, -k);
+	       Collections.rotate(listA, k);
 	       //System.out.println(listA);
 	       String response = listA.toString();
 	       return response;

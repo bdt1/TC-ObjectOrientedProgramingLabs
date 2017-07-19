@@ -38,13 +38,14 @@ public class InventoryManagerTest {
 	
 	@Test
 	public void testCreateNewProduct() {
+		Product product = new Product(id, price, quantity);
 		// :Given
-		//String expected = "\n\n\nId = 1\nPrice = 1.0\nQuantity = 10";
-		String expected = "" + this.product;
+		String expected = "\n\n\nId = 1\nPrice = 1.0\nQuantity = 10";
+		//String expected = "" + this.product;
 		// :When
-		Product actual = InventoryManager.createNewProduct();
+		InventoryManager.createNewProduct();
 		// :Then
-		Assert.assertEquals(expected, actual);
+		Assert.assertEquals(expected, product);
 	}
 	
 	
